@@ -1,0 +1,133 @@
+/*
+primary variant - #BB86FC
+primary - #6200EE
+secondary - #03DAC6
+*/
+html{
+    width: 100%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111111;
+    color:#fff6ff;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 650;
+    
+    
+}
+.titles{
+    margin-top:15px;
+    margin-bottom: 30px;
+    text-align: center
+    
+}
+.small-title{
+    font-size: 12px; 
+    color: #0066FF;
+    font-weight: 600;
+}
+.area-container{
+    width:100%;
+    max-width: 500px;
+    margin: auto;
+    background-color: #212121;
+    border-radius: 5px;
+}
+
+#output{
+    font-size: 25px;
+    margin-top:10px;
+}
+
+#output-area, #input-area{
+    padding: 15px;
+    padding-top:10px
+}
+.secondary-title{
+    font-size: 14px; 
+    color: #62eaff;
+}
+
+.glow{
+    box-shadow: 0px 0px 2px 0px #03DAC6;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    resize: none;
+    caret-color: #03DAC6;
+    font-size:17px;
+    color:#fff;
+    background-color: #212121;
+    margin-top:10px;
+  }
+
+#copy-button{
+    width:100%;
+    height: 30px;
+    background-color: #00bbff;
+    border:0px;
+    color: #fff;
+    border-radius: 5px;
+}
+#clear-button{
+    width:auto;
+    height: 25px;
+    background-color: #f34060;
+    border:0px;
+    font-size:12px;
+    color: #fff;
+    padding: 5px;
+    float:right;
+    border-radius: 5px;
+}
+
+.coppied{
+    background-color: #9d03da!important;
+}
+
+a{
+    color:#03DAC6;
+}
+
+.footer{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    left: 0px;
+    bottom: 0px;
+    height: 44px;
+    width: 100%;
+    background: #0f0f0f;
+    text-align: center;
+}
+
+.scheme{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+table{
+    width:100%;
+    border: 1px solid #4a4a4a;
+    border-collapse: collapse;
+}
+
+/* Borders */
+td {
+    border: 1px solid #4a4a4a;
+    text-align: center;
+    padding: 5px;
+}
