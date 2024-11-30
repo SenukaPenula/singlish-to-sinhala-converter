@@ -1,0 +1,15 @@
+{
+  "name": "mycopy",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "R.M.Senuka Penula",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.8"
+  },
+  
+    "scripts": {
+      "start": "electron ."
+    }
+
+}
